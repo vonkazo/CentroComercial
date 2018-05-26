@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace CentroComercial
 {
-    public partial class Form1 : Form
+    public partial class fMenuPrincipal : Form
     {
-        public Form1()
+        public fMenuPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void bSalir_Click(object sender, EventArgs e)
+        {
+            fLogin.ventana1.Visible = true;
+            this.Close();
         }
     }
 }
