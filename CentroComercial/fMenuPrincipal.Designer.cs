@@ -54,6 +54,7 @@
             this.bInformacionPersonal.TabIndex = 0;
             this.bInformacionPersonal.Text = "Informacion Personal";
             this.bInformacionPersonal.UseVisualStyleBackColor = false;
+            this.bInformacionPersonal.Click += new System.EventHandler(this.bInformacionPersonal_Click);
             // 
             // bVentas
             // 
@@ -87,7 +88,7 @@
             this.bInfoEmpleados.FlatAppearance.BorderColor = System.Drawing.Color.PowderBlue;
             this.bInfoEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bInfoEmpleados.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.bInfoEmpleados.Location = new System.Drawing.Point(586, 209);
+            this.bInfoEmpleados.Location = new System.Drawing.Point(586, 108);
             this.bInfoEmpleados.Name = "bInfoEmpleados";
             this.bInfoEmpleados.Size = new System.Drawing.Size(146, 70);
             this.bInfoEmpleados.TabIndex = 3;
@@ -100,7 +101,7 @@
             this.bNominasEmple.FlatAppearance.BorderColor = System.Drawing.Color.PowderBlue;
             this.bNominasEmple.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bNominasEmple.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.bNominasEmple.Location = new System.Drawing.Point(586, 108);
+            this.bNominasEmple.Location = new System.Drawing.Point(295, 309);
             this.bNominasEmple.Name = "bNominasEmple";
             this.bNominasEmple.Size = new System.Drawing.Size(146, 70);
             this.bNominasEmple.TabIndex = 4;
@@ -178,11 +179,11 @@
             // 
             // bSalir
             // 
-            this.bSalir.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.bSalir.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.bSalir.FlatAppearance.BorderColor = System.Drawing.Color.PowderBlue;
             this.bSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bSalir.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.bSalir.Location = new System.Drawing.Point(483, 441);
+            this.bSalir.Location = new System.Drawing.Point(749, 475);
             this.bSalir.Name = "bSalir";
             this.bSalir.Size = new System.Drawing.Size(80, 28);
             this.bSalir.TabIndex = 11;

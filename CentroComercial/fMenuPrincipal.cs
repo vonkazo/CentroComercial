@@ -12,6 +12,7 @@ namespace CentroComercial
 {
     public partial class fMenuPrincipal : Form
     {
+        public fInformacionPersonal ventana3;
         public fMenuPrincipal()
         {
             InitializeComponent();
@@ -21,6 +22,12 @@ namespace CentroComercial
         {
             fLogin.ventana1.Visible = true;
             this.Close();
+        }
+
+        private void bInformacionPersonal_Click(object sender, EventArgs e)
+        {
+            ventana3 = new fInformacionPersonal();
+            ventana3.Show();
         }
     }
 }

@@ -14,7 +14,6 @@ namespace CentroComercial
     {
         public static fLogin ventana1;
         public static fMenuPrincipal ventana2;
-        //public static fInformacionPersonal ventana3;
         //public static fNominas;
         public fLogin()
         {
