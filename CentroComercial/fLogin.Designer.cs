@@ -60,7 +60,7 @@
             // tBUsuario
             // 
             this.tBUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBUsuario.Location = new System.Drawing.Point(176, 105);
+            this.tBUsuario.Location = new System.Drawing.Point(200, 102);
             this.tBUsuario.Name = "tBUsuario";
             this.tBUsuario.Size = new System.Drawing.Size(149, 30);
             this.tBUsuario.TabIndex = 3;
@@ -68,7 +68,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(176, 195);
+            this.textBox2.Location = new System.Drawing.Point(200, 198);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(149, 30);
             this.textBox2.TabIndex = 4;

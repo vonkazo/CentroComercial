@@ -17,9 +17,24 @@ namespace CentroComercial
             InitializeComponent();
         }
 
-        private void fInformacionPersonal_Load(object sender, EventArgs e)
+        // Metodo que utilizamos para cargar datos del empleado en la ventana
+        public void cargaDatos(Object empleado)
         {
-
+            /*
+            tBCodEmpleado.Text = ;
+            tBDNI.Text = ;
+            tBNombre.Text = ;
+            tBApellidos.Text = ;
+            tBDireccion.Text = ;
+            tBTelefono.Text = ;
+            tBEmail.Text = ;
+            tBFechaIngreso.Text = ;
+            tBFechaNacimiento.Text = ;
+            tBDepartAsignado.Text = ;
+            tBCentroAsignado.Text = ;
+            tBTipoContrato.Text = ;
+            tbPrecioHora.Text = ;
+            */
         }
     }
 }

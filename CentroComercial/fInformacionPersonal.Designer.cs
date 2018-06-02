@@ -40,8 +40,6 @@
             this.lDireccion = new System.Windows.Forms.Label();
             this.tBTelefono = new System.Windows.Forms.TextBox();
             this.lTelefono = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.lEmail = new System.Windows.Forms.Label();
             this.tBEmail = new System.Windows.Forms.TextBox();
             this.lFechaIngreso = new System.Windows.Forms.Label();
@@ -173,30 +171,11 @@
             this.lTelefono.TabIndex = 10;
             this.lTelefono.Text = "Teléfono:";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(195, 383);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(145, 30);
-            this.textBox1.TabIndex = 13;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(86, 388);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 25);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Direccion:";
-            // 
             // lEmail
             // 
             this.lEmail.AutoSize = true;
             this.lEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lEmail.Location = new System.Drawing.Point(485, 95);
+            this.lEmail.Location = new System.Drawing.Point(119, 383);
             this.lEmail.Name = "lEmail";
             this.lEmail.Size = new System.Drawing.Size(66, 25);
             this.lEmail.TabIndex = 15;
@@ -205,7 +184,7 @@
             // tBEmail
             // 
             this.tBEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBEmail.Location = new System.Drawing.Point(557, 92);
+            this.tBEmail.Location = new System.Drawing.Point(195, 380);
             this.tBEmail.Name = "tBEmail";
             this.tBEmail.ReadOnly = true;
             this.tBEmail.Size = new System.Drawing.Size(145, 30);
@@ -215,7 +194,7 @@
             // 
             this.lFechaIngreso.AutoSize = true;
             this.lFechaIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lFechaIngreso.Location = new System.Drawing.Point(409, 146);
+            this.lFechaIngreso.Location = new System.Drawing.Point(410, 95);
             this.lFechaIngreso.Name = "lFechaIngreso";
             this.lFechaIngreso.Size = new System.Drawing.Size(142, 25);
             this.lFechaIngreso.TabIndex = 17;
@@ -224,7 +203,7 @@
             // tBFechaIngreso
             // 
             this.tBFechaIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBFechaIngreso.Location = new System.Drawing.Point(557, 143);
+            this.tBFechaIngreso.Location = new System.Drawing.Point(558, 92);
             this.tBFechaIngreso.Name = "tBFechaIngreso";
             this.tBFechaIngreso.ReadOnly = true;
             this.tBFechaIngreso.Size = new System.Drawing.Size(145, 30);
@@ -234,7 +213,7 @@
             // 
             this.lFechaNacimiento.AutoSize = true;
             this.lFechaNacimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lFechaNacimiento.Location = new System.Drawing.Point(376, 195);
+            this.lFechaNacimiento.Location = new System.Drawing.Point(377, 144);
             this.lFechaNacimiento.Name = "lFechaNacimiento";
             this.lFechaNacimiento.Size = new System.Drawing.Size(175, 25);
             this.lFechaNacimiento.TabIndex = 19;
@@ -243,7 +222,7 @@
             // tBFechaNacimiento
             // 
             this.tBFechaNacimiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBFechaNacimiento.Location = new System.Drawing.Point(557, 190);
+            this.tBFechaNacimiento.Location = new System.Drawing.Point(558, 139);
             this.tBFechaNacimiento.Name = "tBFechaNacimiento";
             this.tBFechaNacimiento.ReadOnly = true;
             this.tBFechaNacimiento.Size = new System.Drawing.Size(145, 30);
@@ -253,7 +232,7 @@
             // 
             this.lDepartAsignado.AutoSize = true;
             this.lDepartAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lDepartAsignado.Location = new System.Drawing.Point(404, 246);
+            this.lDepartAsignado.Location = new System.Drawing.Point(405, 195);
             this.lDepartAsignado.Name = "lDepartAsignado";
             this.lDepartAsignado.Size = new System.Drawing.Size(147, 25);
             this.lDepartAsignado.TabIndex = 21;
@@ -262,7 +241,7 @@
             // tBDepartAsignado
             // 
             this.tBDepartAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBDepartAsignado.Location = new System.Drawing.Point(557, 241);
+            this.tBDepartAsignado.Location = new System.Drawing.Point(558, 190);
             this.tBDepartAsignado.Name = "tBDepartAsignado";
             this.tBDepartAsignado.ReadOnly = true;
             this.tBDepartAsignado.Size = new System.Drawing.Size(145, 30);
@@ -272,7 +251,7 @@
             // 
             this.lCentroAsignado.AutoSize = true;
             this.lCentroAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lCentroAsignado.Location = new System.Drawing.Point(386, 292);
+            this.lCentroAsignado.Location = new System.Drawing.Point(387, 241);
             this.lCentroAsignado.Name = "lCentroAsignado";
             this.lCentroAsignado.Size = new System.Drawing.Size(165, 25);
             this.lCentroAsignado.TabIndex = 23;
@@ -281,7 +260,7 @@
             // tBCentroAsignado
             // 
             this.tBCentroAsignado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBCentroAsignado.Location = new System.Drawing.Point(557, 289);
+            this.tBCentroAsignado.Location = new System.Drawing.Point(558, 238);
             this.tBCentroAsignado.Name = "tBCentroAsignado";
             this.tBCentroAsignado.ReadOnly = true;
             this.tBCentroAsignado.Size = new System.Drawing.Size(145, 30);
@@ -291,7 +270,7 @@
             // 
             this.lTipoContrato.AutoSize = true;
             this.lTipoContrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lTipoContrato.Location = new System.Drawing.Point(414, 340);
+            this.lTipoContrato.Location = new System.Drawing.Point(415, 289);
             this.lTipoContrato.Name = "lTipoContrato";
             this.lTipoContrato.Size = new System.Drawing.Size(137, 25);
             this.lTipoContrato.TabIndex = 25;
@@ -300,7 +279,7 @@
             // tBTipoContrato
             // 
             this.tBTipoContrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tBTipoContrato.Location = new System.Drawing.Point(557, 337);
+            this.tBTipoContrato.Location = new System.Drawing.Point(558, 286);
             this.tBTipoContrato.Name = "tBTipoContrato";
             this.tBTipoContrato.ReadOnly = true;
             this.tBTipoContrato.Size = new System.Drawing.Size(145, 30);
@@ -310,7 +289,7 @@
             // 
             this.lPrecioHora.AutoSize = true;
             this.lPrecioHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lPrecioHora.Location = new System.Drawing.Point(430, 386);
+            this.lPrecioHora.Location = new System.Drawing.Point(431, 335);
             this.lPrecioHora.Name = "lPrecioHora";
             this.lPrecioHora.Size = new System.Drawing.Size(121, 25);
             this.lPrecioHora.TabIndex = 27;
@@ -319,7 +298,7 @@
             // tbPrecioHora
             // 
             this.tbPrecioHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbPrecioHora.Location = new System.Drawing.Point(557, 383);
+            this.tbPrecioHora.Location = new System.Drawing.Point(558, 332);
             this.tbPrecioHora.Name = "tbPrecioHora";
             this.tbPrecioHora.ReadOnly = true;
             this.tbPrecioHora.Size = new System.Drawing.Size(145, 30);
@@ -355,8 +334,6 @@
             this.Controls.Add(this.tBFechaIngreso);
             this.Controls.Add(this.lEmail);
             this.Controls.Add(this.tBEmail);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.tBTelefono);
             this.Controls.Add(this.lTelefono);
             this.Controls.Add(this.tBDireccion);
@@ -371,7 +348,6 @@
             this.Controls.Add(this.tBCodEmpleado);
             this.Name = "fInformacionPersonal";
             this.Text = "Informacion Personal";
-            this.Load += new System.EventHandler(this.fInformacionPersonal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -391,8 +367,6 @@
         private System.Windows.Forms.Label lDireccion;
         private System.Windows.Forms.TextBox tBTelefono;
         private System.Windows.Forms.Label lTelefono;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lEmail;
         private System.Windows.Forms.TextBox tBEmail;
         private System.Windows.Forms.Label lFechaIngreso;

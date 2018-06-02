@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Clases;
 
 namespace CentroComercial
 {
@@ -23,9 +24,19 @@ namespace CentroComercial
 
         private void bLogin_Click(object sender, EventArgs e)
         {
-            ventana2 = new fMenuPrincipal();
-            ventana2.Show();
-            this.Visible = false;
+            int pasa = 1;
+            if(pasa != null)
+            {
+                ventana2 = new fMenuPrincipal();
+                ventana2.Show();
+                this.Visible = false;
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña no validos");
+            }
+
+            
         }
     }
 }
