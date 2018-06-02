@@ -95,6 +95,7 @@
             this.bInfoEmpleados.TabIndex = 3;
             this.bInfoEmpleados.Text = "Informacion de Empleados";
             this.bInfoEmpleados.UseVisualStyleBackColor = false;
+            this.bInfoEmpleados.Click += new System.EventHandler(this.bInfoEmpleados_Click);
             // 
             // bNominasEmple
             // 
@@ -122,6 +123,7 @@
             this.bInfoProveedores.TabIndex = 5;
             this.bInfoProveedores.Text = "Proveedores";
             this.bInfoProveedores.UseVisualStyleBackColor = false;
+            this.bInfoProveedores.Click += new System.EventHandler(this.bInfoProveedores_Click);
             // 
             // bArticulos
             // 

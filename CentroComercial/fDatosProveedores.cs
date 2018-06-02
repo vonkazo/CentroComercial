@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace CentroComercial
 {
-    public partial class fDatosNomina : Form
+    public partial class fDatosProveedores : Form
     {
-
-        public fDatosNomina()
+        public fDatosProveedores()
         {
             InitializeComponent();
         }
-
     }
 }

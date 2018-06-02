@@ -51,11 +51,23 @@
     <Compile Include="fArticulos.Designer.cs">
       <DependentUpon>fArticulos.cs</DependentUpon>
     </Compile>
+    <Compile Include="fBuscarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBuscarProveedor.Designer.cs">
+      <DependentUpon>fBuscarProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="fDatosNomina.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fDatosNomina.Designer.cs">
       <DependentUpon>fDatosNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDatosProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDatosProveedores.Designer.cs">
+      <DependentUpon>fDatosProveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="fInformacionPersonal.cs">
       <SubType>Form</SubType>
@@ -87,6 +99,12 @@
     <Compile Include="fNominas.Designer.cs">
       <DependentUpon>fNominas.cs</DependentUpon>
     </Compile>
+    <Compile Include="fBusquedaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fBusquedaEmpleado.Designer.cs">
+      <DependentUpon>fBusquedaEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="fVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,8 +116,14 @@
     <EmbeddedResource Include="fArticulos.resx">
       <DependentUpon>fArticulos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="fBuscarProveedor.resx">
+      <DependentUpon>fBuscarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fDatosNomina.resx">
       <DependentUpon>fDatosNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDatosProveedores.resx">
+      <DependentUpon>fDatosProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fInformacionPersonal.resx">
       <DependentUpon>fInformacionPersonal.cs</DependentUpon>
@@ -115,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fNominas.resx">
       <DependentUpon>fNominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fBusquedaEmpleado.resx">
+      <DependentUpon>fBusquedaEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fVentas.resx">
       <DependentUpon>fVentas.cs</DependentUpon>

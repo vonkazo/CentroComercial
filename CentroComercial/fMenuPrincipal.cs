@@ -17,6 +17,8 @@ namespace CentroComercial
         public fNominas ventana5;
         public fNominaPropia ventana6;
         public fArticulos ventana7;
+        public fBuscarProveedor ventana8;
+        public fBusquedaEmpleado ventana9;
         public fMenuPrincipal()
         {
             InitializeComponent();
@@ -56,6 +58,18 @@ namespace CentroComercial
         {
             ventana7 = new fArticulos();
             ventana7.Show();
+        }
+
+        private void bInfoProveedores_Click(object sender, EventArgs e)
+        {
+            ventana8 = new fBuscarProveedor();
+            ventana8.Show();
+        }
+
+        private void bInfoEmpleados_Click(object sender, EventArgs e)
+        {
+            ventana9 = new fBusquedaEmpleado();
+            ventana9.Show();
         }
     }
 }

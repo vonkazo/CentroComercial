@@ -10,13 +10,18 @@ using System.Windows.Forms;
 
 namespace CentroComercial
 {
-    public partial class fDatosNomina : Form
+    public partial class fBuscarProveedor : Form
     {
-
-        public fDatosNomina()
+        public fDatosProveedores ventana;
+        public fBuscarProveedor()
         {
             InitializeComponent();
         }
 
+        private void bBuscar_Click(object sender, EventArgs e)
+        {
+            ventana = new fDatosProveedores();
+            ventana.Show();
+        }
     }
 }
