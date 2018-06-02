@@ -35,7 +35,6 @@
             this.bNominasEmple = new System.Windows.Forms.Button();
             this.bInfoProveedores = new System.Windows.Forms.Button();
             this.bArticulos = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.lUsuarioGeneral = new System.Windows.Forms.Label();
             this.lGerente = new System.Windows.Forms.Label();
             this.lDirectivos = new System.Windows.Forms.Label();
@@ -68,6 +67,7 @@
             this.bVentas.TabIndex = 1;
             this.bVentas.Text = "Ventas";
             this.bVentas.UseVisualStyleBackColor = false;
+            this.bVentas.Click += new System.EventHandler(this.bVentas_Click);
             // 
             // bNominas
             // 
@@ -81,6 +81,7 @@
             this.bNominas.TabIndex = 2;
             this.bNominas.Text = "Nominas Propias";
             this.bNominas.UseVisualStyleBackColor = false;
+            this.bNominas.Click += new System.EventHandler(this.bNominas_Click);
             // 
             // bInfoEmpleados
             // 
@@ -101,12 +102,13 @@
             this.bNominasEmple.FlatAppearance.BorderColor = System.Drawing.Color.PowderBlue;
             this.bNominasEmple.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bNominasEmple.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.bNominasEmple.Location = new System.Drawing.Point(295, 309);
+            this.bNominasEmple.Location = new System.Drawing.Point(295, 209);
             this.bNominasEmple.Name = "bNominasEmple";
             this.bNominasEmple.Size = new System.Drawing.Size(146, 70);
             this.bNominasEmple.TabIndex = 4;
             this.bNominasEmple.Text = "Nominas de Empleados";
             this.bNominasEmple.UseVisualStyleBackColor = false;
+            this.bNominasEmple.Click += new System.EventHandler(this.bNominasEmple_Click);
             // 
             // bInfoProveedores
             // 
@@ -127,25 +129,13 @@
             this.bArticulos.FlatAppearance.BorderColor = System.Drawing.Color.PowderBlue;
             this.bArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bArticulos.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.bArticulos.Location = new System.Drawing.Point(295, 209);
+            this.bArticulos.Location = new System.Drawing.Point(33, 413);
             this.bArticulos.Name = "bArticulos";
             this.bArticulos.Size = new System.Drawing.Size(146, 70);
             this.bArticulos.TabIndex = 6;
             this.bArticulos.Text = "Articulos";
             this.bArticulos.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.PowderBlue;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button1.Location = new System.Drawing.Point(33, 399);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 70);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Articulos";
-            this.button1.UseVisualStyleBackColor = false;
+            this.bArticulos.Click += new System.EventHandler(this.bArticulos_Click);
             // 
             // lUsuarioGeneral
             // 
@@ -200,7 +190,6 @@
             this.Controls.Add(this.lDirectivos);
             this.Controls.Add(this.lGerente);
             this.Controls.Add(this.lUsuarioGeneral);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.bArticulos);
             this.Controls.Add(this.bInfoProveedores);
             this.Controls.Add(this.bNominasEmple);
@@ -209,7 +198,7 @@
             this.Controls.Add(this.bVentas);
             this.Controls.Add(this.bInformacionPersonal);
             this.Name = "fMenuPrincipal";
-            this.Text = "fMenuPrincipal";
+            this.Text = "Menu principal";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,7 +213,6 @@
         private System.Windows.Forms.Button bNominasEmple;
         private System.Windows.Forms.Button bInfoProveedores;
         private System.Windows.Forms.Button bArticulos;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lUsuarioGeneral;
         private System.Windows.Forms.Label lGerente;
         private System.Windows.Forms.Label lDirectivos;

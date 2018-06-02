@@ -370,7 +370,7 @@
             this.Controls.Add(this.tBDNI);
             this.Controls.Add(this.tBCodEmpleado);
             this.Name = "fInformacionPersonal";
-            this.Text = "fInformacionPersonal";
+            this.Text = "Informacion Personal";
             this.Load += new System.EventHandler(this.fInformacionPersonal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

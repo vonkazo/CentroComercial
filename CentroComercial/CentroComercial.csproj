@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fArticulos.Designer.cs">
+      <DependentUpon>fArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fDatosNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fDatosNomina.Designer.cs">
+      <DependentUpon>fDatosNomina.cs</DependentUpon>
+    </Compile>
     <Compile Include="fInformacionPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,8 +75,32 @@
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="fNominaPropia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNominaPropia.Designer.cs">
+      <DependentUpon>fNominaPropia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNominas.Designer.cs">
+      <DependentUpon>fNominas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fVentas.Designer.cs">
+      <DependentUpon>fVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fArticulos.resx">
+      <DependentUpon>fArticulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fDatosNomina.resx">
+      <DependentUpon>fDatosNomina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fInformacionPersonal.resx">
       <DependentUpon>fInformacionPersonal.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,6 +109,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="fMenuPrincipal.resx">
       <DependentUpon>fMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNominaPropia.resx">
+      <DependentUpon>fNominaPropia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNominas.resx">
+      <DependentUpon>fNominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fVentas.resx">
+      <DependentUpon>fVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

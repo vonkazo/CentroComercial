@@ -13,6 +13,10 @@ namespace CentroComercial
     public partial class fMenuPrincipal : Form
     {
         public fInformacionPersonal ventana3;
+        public fVentas ventana4;
+        public fNominas ventana5;
+        public fNominaPropia ventana6;
+        public fArticulos ventana7;
         public fMenuPrincipal()
         {
             InitializeComponent();
@@ -28,6 +32,30 @@ namespace CentroComercial
         {
             ventana3 = new fInformacionPersonal();
             ventana3.Show();
+        }
+
+        private void bVentas_Click(object sender, EventArgs e)
+        {
+            ventana4 = new fVentas();
+            ventana4.Show();
+        }
+
+        private void bNominasEmple_Click(object sender, EventArgs e)
+        {
+            ventana5 = new fNominas();
+            ventana5.Show();
+        }
+
+        private void bNominas_Click(object sender, EventArgs e)
+        {
+            ventana6 = new fNominaPropia();
+            ventana6.Show();
+        }
+
+        private void bArticulos_Click(object sender, EventArgs e)
+        {
+            ventana7 = new fArticulos();
+            ventana7.Show();
         }
     }
 }
