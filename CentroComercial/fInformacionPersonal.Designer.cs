@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fInformacionPersonal));
             this.tBCodEmpleado = new System.Windows.Forms.TextBox();
             this.tBDNI = new System.Windows.Forms.TextBox();
             this.lCodEmple = new System.Windows.Forms.Label();
@@ -346,6 +347,7 @@
             this.Controls.Add(this.lCodEmple);
             this.Controls.Add(this.tBDNI);
             this.Controls.Add(this.tBCodEmpleado);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fInformacionPersonal";
             this.Text = "Informacion Personal";
             this.ResumeLayout(false);

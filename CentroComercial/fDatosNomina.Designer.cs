@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fDatosNomina));
             this.l = new System.Windows.Forms.Label();
             this.tbMes = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -277,6 +278,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbMes);
             this.Controls.Add(this.l);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fDatosNomina";
             this.Text = "Datos de la nomina";
             this.ResumeLayout(false);

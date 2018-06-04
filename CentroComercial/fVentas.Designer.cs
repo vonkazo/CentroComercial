@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fVentas));
             this.lVMuestraVentas = new System.Windows.Forms.ListView();
             this.lVentasTitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -57,6 +58,7 @@
             this.ClientSize = new System.Drawing.Size(753, 463);
             this.Controls.Add(this.lVentasTitulo);
             this.Controls.Add(this.lVMuestraVentas);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fVentas";
             this.Text = "Ventas";
             this.ResumeLayout(false);

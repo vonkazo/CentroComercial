@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fNominaPropia));
             this.lNominaPropia = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lMes = new System.Windows.Forms.Label();
@@ -80,6 +81,7 @@
             this.Controls.Add(this.lMes);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lNominaPropia);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fNominaPropia";
             this.Text = "Buscar Nomina";
             this.ResumeLayout(false);

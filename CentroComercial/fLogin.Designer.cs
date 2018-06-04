@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fLogin));
             this.lBUsuario = new System.Windows.Forms.Label();
             this.lBContraseña = new System.Windows.Forms.Label();
             this.tBUsuario = new System.Windows.Forms.TextBox();
@@ -94,6 +95,7 @@
             this.Controls.Add(this.tBUsuario);
             this.Controls.Add(this.lBContraseña);
             this.Controls.Add(this.lBUsuario);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fLogin";
             this.Text = "Login CComercial";
             this.ResumeLayout(false);

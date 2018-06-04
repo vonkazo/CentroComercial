@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fBuscarProveedor));
             this.lCIF = new System.Windows.Forms.Label();
             this.tBCIF = new System.Windows.Forms.TextBox();
             this.lTitulo = new System.Windows.Forms.Label();
@@ -81,6 +82,7 @@
             this.Controls.Add(this.lTitulo);
             this.Controls.Add(this.tBCIF);
             this.Controls.Add(this.lCIF);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fBuscarProveedor";
             this.Text = "Busca Proveedor";
             this.ResumeLayout(false);

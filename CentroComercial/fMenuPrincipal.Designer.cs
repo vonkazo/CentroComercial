@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fMenuPrincipal));
             this.bInformacionPersonal = new System.Windows.Forms.Button();
             this.bVentas = new System.Windows.Forms.Button();
             this.bNominas = new System.Windows.Forms.Button();
@@ -199,6 +200,7 @@
             this.Controls.Add(this.bNominas);
             this.Controls.Add(this.bVentas);
             this.Controls.Add(this.bInformacionPersonal);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fMenuPrincipal";
             this.Text = "Menu principal";
             this.ResumeLayout(false);

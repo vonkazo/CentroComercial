@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fNominas));
             this.lNominas = new System.Windows.Forms.Label();
             this.listView1 = new System.Windows.Forms.ListView();
             this.bBuscar = new System.Windows.Forms.Button();
@@ -68,6 +69,7 @@
             this.Controls.Add(this.bBuscar);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.lNominas);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fNominas";
             this.Text = "Nominas";
             this.ResumeLayout(false);

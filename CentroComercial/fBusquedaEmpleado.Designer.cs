@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fBusquedaEmpleado));
             this.lTitulo = new System.Windows.Forms.Label();
             this.lDNI = new System.Windows.Forms.Label();
             this.tBBuscarEmpleado = new System.Windows.Forms.TextBox();
@@ -81,6 +82,7 @@
             this.Controls.Add(this.tBBuscarEmpleado);
             this.Controls.Add(this.lDNI);
             this.Controls.Add(this.lTitulo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "fBusquedaEmpleado";
             this.Text = "Buscar Empleado";
             this.ResumeLayout(false);
